@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import "github.com/gogo/protobuf/gogoproto/gogo.proto";
-
 package pb;
+
+import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 
 // protoc --gogofaster_out=. -I $GOPATH/src -I . stats.proto
 
